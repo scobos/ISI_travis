@@ -32,13 +32,13 @@ public class MinTest
       fail ("NullPointerException expected");
    }
 
-   @Test (expected = NullPointerException.class)
-   public void testForNullElement()
-   {
-      list.add (null);
-      list.add ("cat");
-      Min.min (list);
-   }
+//   @Test (expected = NullPointerException.class)
+//   public void testForNullElement()
+//   {
+//      list.add (null);
+//      list.add ("cat");
+//      Min.min (list);
+//   }
 
    @Test (expected = NullPointerException.class)
    public void testForSoloNullElement()
