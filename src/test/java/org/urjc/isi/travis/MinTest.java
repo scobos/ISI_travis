@@ -40,12 +40,12 @@ public class MinTest
 //      Min.min (list);
 //   }
 
-   @Test (expected = NullPointerException.class)
-   public void testForSoloNullElement()
-   {
-      list.add (null);
-      Min.min (list);
-   }
+//   @Test (expected = NullPointerException.class)
+//   public void testForSoloNullElement()
+//   {
+//      list.add (null);
+//      Min.min (list);
+//   }
 
    @Test (expected = ClassCastException.class)
    @SuppressWarnings ("unchecked")
